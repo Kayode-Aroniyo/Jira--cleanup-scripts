@@ -24,9 +24,9 @@ def sb = new StringBuilder()
 
 sb.append("Start to look unused workflows<br/>")
 if (isPreview) {
-    sb.append("<b>Please, note it works as preview. <br/>\n For execute change variable isPreview = true </b><br/><br/>\n")
+    sb.append("<b>note it works as preview. <br/>\n For execute change variable isPreview = true </b><br/><br/>\n")
 } else {
-    sb.append("<b>Please, note it works in execute mode</b><br/><br/>\n")
+    sb.append("<b>note it works in execute mode</b><br/><br/>\n")
 }
 // review Workflows
 workflowManager.workflows.each {
