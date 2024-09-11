@@ -6,6 +6,8 @@ import com.atlassian.jira.issue.fields.screen.FieldScreenManager
 import com.atlassian.jira.issue.fields.screen.FieldScreenSchemeManager
 import com.atlassian.jira.web.action.admin.issuefields.screens.ViewFieldScreens
 
+import com.atlassian.jira.issue.fields.screen.FieldScreenFactory
+
 
 FieldScreenManager fieldScreenManager = ComponentAccessor.getFieldScreenManager()
 FieldScreenFactory fieldScreenFactory = ComponentAccessor.getComponent(FieldScreenFactory.class)
