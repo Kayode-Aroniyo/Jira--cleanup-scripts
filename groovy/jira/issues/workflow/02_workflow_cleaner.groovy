@@ -16,7 +16,7 @@ import org.apache.log4j.Logger
 import org.apache.log4j.Level
 
 def log = Logger.getLogger("com.gonchik.scripts.groovy.deleteUnUsedWorkflowsAndWorkflowSchemes")
-log.setLevel(Level.DEBUG)
+
 
 def workflowManager = ComponentAccessor.workflowManager
 def schemeManager = ComponentAccessor.workflowSchemeManager
